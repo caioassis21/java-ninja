@@ -19,6 +19,8 @@ public class ExemploDoWhile {
             System.out.printf("Equivalente em fahrenheit: %.1f%n", fahrenheit);
             System.out.print("Deseja repetir(s/n)? ");
             resposta = sc.next().charAt(0);
+
+
         } while (resposta != 'n');
 
     }

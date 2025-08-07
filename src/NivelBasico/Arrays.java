@@ -10,30 +10,19 @@ public class Arrays {
        ninja[3] = "Hinata Hyuga";
        ninja[4] = "Kakashi Hatake";
 
-       System.out.println(ninja[5]);
+       ninja = new String[7];
+       ninja[0] = "Hashirama Senju";
+       ninja[1] = "Tobirama Senju";
+       ninja[2] = "Hiruzen Sarutobi";
+       ninja[3] = "Minato Namekaze";
+       ninja[4] = "Tsunade";
+       ninja[5] = "Kakashi Hatake";
+       ninja[6] = "Naruto Uzumaki";
 
-       int[] idade = new int[2];
-       idade[0] = 6;
-        System.out.println(idade[1]);
+       // Como mostrar toda a lista de ninjas
+        for (int i = 0; i < 7; i++) {
+            System.out.println(ninja[i]);
+        }
 
-        boolean[] verdaderoOufalso = new boolean[1];
-        System.out.println(verdaderoOufalso[0]);
-
-
-
-
-
-
-
-
-       /*  String ninja01 = "Naruto Uzumaki";
-        String ninja02 = "Sasuke Uchira";
-        String ninja03 = "Sakura Haruno";
-
-        System.out.println(ninja01);
-        System.out.println(ninja02);
-        System.out.println(ninja03);
-
-        */
     }
 }
